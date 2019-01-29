@@ -14,4 +14,5 @@ def pop_with_args(array,tmes=2)
   tmes.times do
     updated_array<<array.pop
   end
+  return updated_array
 end
