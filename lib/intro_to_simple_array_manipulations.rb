@@ -11,6 +11,7 @@ def using_pop(array)
 end
 
 def pop_with_args(array,tmes=2)
+  updated_array=[]
   tmes.times do
     updated_array<<array.pop
   end
